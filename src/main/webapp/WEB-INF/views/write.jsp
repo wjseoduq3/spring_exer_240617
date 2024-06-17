@@ -24,7 +24,7 @@
 			<td><textarea rows="10" cols="45" name="contents"></textarea></td>	
 		</tr>
 	</table>
-	<input type="submit" value="글작성">	
+	<input type="submit" value="게시글작성">	
 	</form>
 </body>
 </html>
