@@ -23,8 +23,12 @@
 			<td>내용</td>
 			<td><textarea rows="10" cols="45" name="contents"></textarea></td>	
 		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="submit" value="게시글작성">
+			</td>
+		</tr>
 	</table>
-	<input type="submit" value="게시글작성">	
 	</form>
 </body>
 </html>

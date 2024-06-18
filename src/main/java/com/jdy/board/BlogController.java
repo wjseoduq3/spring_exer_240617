@@ -16,9 +16,7 @@ public class BlogController {
 	
 	@RequestMapping(value = "/writeOk")
 	public String writeOk(BlogDto blogDto, Model model) {
-		
 		model.addAttribute("blogdto", blogDto);		
-		
 		return "writeOk";
 	}
 }
