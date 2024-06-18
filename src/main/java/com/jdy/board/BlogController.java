@@ -43,8 +43,8 @@ public class BlogController {
 		String keyword = request.getParameter("keyword");
 		
 			if(keyword.equals("abc")) {
-				// return "redirect:keywordGood";
-				return "keywordGood";
+				return "redirect:keywordGood";
+				// return "keywordGood";
 			} else {
 				return "redirect:keywordBad";
 				// return "keywordGood";
