@@ -9,7 +9,7 @@
 <body>
 	<h3>게시판 글쓰기</h3>
 	<hr>
-	<form action="writeOk">
+	<form action="writeOk" method="get">
 	<table border="1" cellspacing="0" cellpadding="0" width="600">
 		<tr>
 			<td>이름</td>
